@@ -15,15 +15,23 @@ Build a practical and well-documented deepfake detection pipeline that can be tr
 ## Project Structure
 
 data/
+
     raw/        - original datasets
+    
     interim/    - extracted frames
+    
     processed/  - cropped faces for training
 
 src/
+
     data/       - preprocessing scripts
+    
     models/     - model definitions
+    
     training/   - training pipeline
+    
     inference/  - prediction pipeline
 
 app/
+
     Gradio web demo
