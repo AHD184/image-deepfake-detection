@@ -1,0 +1,24 @@
+# Loading models, training etc.
+torch
+# For pretrained models like EfficientNet and dataset utilites
+torchvision
+# Reading images, face detection etc.
+opencv-python
+# Array operations
+numpy
+# For tables, labels, CSV files etc.
+pandas
+# For plotting
+matplotlib
+# For evaluation metrics
+scikit-learn
+# Used near the end to build demos
+gradio
+# For notebooks
+jupyter
+# For progress bars in loops    
+tqdm
+# For image handling
+Pillow
+
+
