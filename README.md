@@ -11,27 +11,3 @@ This project detects whether a face image is real or deepfake using a fine-tuned
 
 ## Goal
 Build a practical and well-documented deepfake detection pipeline that can be trained locally and deployed as a live demo.
-
-## Project Structure
-
-data/
-
-    raw/        - original datasets
-    
-    interim/    - extracted frames
-    
-    processed/  - cropped faces for training
-
-src/
-
-    data/       - preprocessing scripts
-    
-    models/     - model definitions
-    
-    training/   - training pipeline
-    
-    inference/  - prediction pipeline
-
-app/
-
-    Gradio web demo
